@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+:root {
+    display: flex;
+    color: #fff;
+    background-image: url(img/bq.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 150%;
+  }
+
+ 
+button {
+    border-radius: 2px;
+    border: 1px solid #fff;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'Nanum Pen Script', cursive;
+    color:#fff;
+    background-color: #162A33;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    border-color: #244C53;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+
+
