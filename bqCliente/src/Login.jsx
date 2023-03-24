@@ -45,9 +45,9 @@ function Login() {
 
   return (
     <>
-      <form onSubmit={handleLogin}>
+      <form className="form" onSubmit={handleLogin}>
         <label>
-          Email:
+        Ingresa tu email
           <input
             type="text"
             id="email"
@@ -56,7 +56,7 @@ function Login() {
           />
         </label>
         <label>
-          Contraseña:
+        Ingresa tu contraseña
           <input
             type="password"
             id="password"
